@@ -52,7 +52,8 @@ def mutate(individual):
         # Ensure individual remains within search range
         individual = max(min(individual, search_range[1]), search_range[0])
     return individual
-
+print("Name:Bhuvana M")
+print("USN:1BM22CS071")
 # Main Genetic Algorithm loop
 def genetic_algorithm():
     # Initialize population
