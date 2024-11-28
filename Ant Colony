@@ -1,9 +1,6 @@
 import numpy as np
 import random
 
-# Name: [Your Name]
-# USN: [Your USN]
-
 # Define the distance between cities
 def calculate_distance(city1, city2):
     return np.sqrt((city1[0] - city2[0]) ** 2 + (city1[1] - city2[1]) ** 2)
