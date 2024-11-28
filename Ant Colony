@@ -1,6 +1,9 @@
 import numpy as np
 import random
 
+# Name: [Your Name]
+# USN: [Your USN]
+
 # Define the distance between cities
 def calculate_distance(city1, city2):
     return np.sqrt((city1[0] - city2[0]) ** 2 + (city1[1] - city2[1]) ** 2)
@@ -107,5 +110,9 @@ iterations = 100
 # Run the ACO algorithm
 aco_tsp = ACO_TSP(cities, num_ants, alpha, beta, rho, iterations)
 best_route, best_distance = aco_tsp.run()
+
+# Display results
+print("Name:Bhuvana M")
+print("USN:1BM22CS071")
 print(f"Best route: {best_route}")
 print(f"Best distance: {best_distance}")
