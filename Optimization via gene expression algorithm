@@ -1,5 +1,6 @@
 import numpy as np
-
+print("Bhuvana M")
+print("1BM22CS071")
 class GeneExpressionClustering:
     def __init__(self, num_genes, num_clusters, num_generations, population_size, mutation_rate):
         self.num_genes = num_genes
